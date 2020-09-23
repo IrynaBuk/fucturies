@@ -258,206 +258,211 @@ FucturiesLists.getInitialProps = async ({query}) => {
     const str =
         [
             {
-                FCTR_ID: 206505803,
-                F_DATE: '31.03.2019',
-                F_NAME: 'Налоговая накладная (моб.связь)',
-                F_NUMBER: 782619,
+                FCTR_ID: 184482728,
+                F_DATE: '01.05.2018',
+                F_NAME: 'Корректировка НДС (моб.связь)',
+                F_NUMBER: 2033561,
                 CLNT_NAME: 'TEST_CLIENT',
-                F_AMOUNT_ALL: 99,
-                F_AMOUNT: 77.65,
-                F_VAT_20: 15.530000000000001,
-                F_VAT_PF: 5.82,
-                F_AMOUNT_WITH_VAT: null,
-                F_ADJ_FUCT_NUMBER: null,
-                F_ADJ_FUCT_DATE: null,
-                F_STATUS: 'Постинг',
-                F_DELTA_AMOUNT: 99,
-                TOTALCOUNT: 45,
-                HISTORY: '[{ "recnum":"782619","adj_date":"31.03.2019","amount":"77.65","vat_20":"15.53","rec_nn_for_adj":"","correason_type":"","adj_group_num":"","quantity":"","delta_det":"77.65","num_det":"1",\n' +
-                    '"itemnumber":"Послуги рухомого (мобільного) зв\'язку","unit_value":""\n' +
+                F_AMOUNT_ALL: -164.70000000000002,
+                F_AMOUNT: -137.25,
+                F_VAT_20: -27.45,
+                F_VAT_PF: null,
+                F_AMOUNT_WITH_VAT: -164.70000000000002,
+                F_ADJ_FUCT_NUMBER: 1987344,
+                F_ADJ_FUCT_DATE: '30.04.2018',
+                F_STATUS: 'Передан в фин. систему',
+                F_DELTA_AMOUNT: 0,
+                TOTALCOUNT: 77,
+                HISTORY: '[{ "recnum":"2033561","adj_date":"01.05.2018","amount":"-137.25","vat_20":"","rec_nn_for_adj":"1","correason_type":"","adj_group_num":"","quantity":"","delta_det":"","num_det":"1",\n' +
+                    `"itemnumber":"Послуги рухомого (мобільного) зв'язку","unit_value":""\n` +
                     '}]'
             },
             {
-                FCTR_ID: 204699076,
-                F_DATE: '28.02.2019',
+                FCTR_ID: 183682566,
+                F_DATE: '30.04.2018',
                 F_NAME: 'Налоговая накладная (моб.связь)',
-                F_NUMBER: 1260952,
+                F_NUMBER: 668896,
                 CLNT_NAME: 'TEST_CLIENT',
-                F_AMOUNT_ALL: 392.25,
-                F_AMOUNT: 307.65000000000003,
-                F_VAT_20: 61.53,
-                F_VAT_PF: 23.07,
+                F_AMOUNT_ALL: 1248.05,
+                F_AMOUNT: 978.86,
+                F_VAT_20: 195.77,
+                F_VAT_PF: 73.42,
                 F_AMOUNT_WITH_VAT: null,
                 F_ADJ_FUCT_NUMBER: null,
                 F_ADJ_FUCT_DATE: null,
                 F_STATUS: 'Постинг',
-                F_DELTA_AMOUNT: 392.25,
-                TOTALCOUNT: 45,
-                HISTORY: '[{ "recnum":"1260952","adj_date":"28.02.2019","amount":"307.65","vat_20":"61.53","rec_nn_for_adj":"","correason_type":"","adj_group_num":"","quantity":"","delta_det":"307.65","num_det":"1",\n' +
-                    '"itemnumber":"Послуги рухомого (мобільного) зв\'язку","unit_value":""\n' +
+                F_DELTA_AMOUNT: 1248.05,
+                TOTALCOUNT: 77,
+                HISTORY: '[{ "recnum":"668896","adj_date":"30.04.2018","amount":"978.86","vat_20":"195.77","rec_nn_for_adj":"","correason_type":"","adj_group_num":"","quantity":"","delta_det":"978.86","num_det":"1",\n' +
+                    '"itemnumber":"","unit_value":""\n' +
+                    '}]'
+            },
+    
+            {
+                FCTR_ID: 179476126,
+                F_DATE: '28.02.2018',
+                F_NAME: 'Корректировка номенклатуры',
+                F_NUMBER: 1894891,
+                CLNT_NAME: 'TEST_CLIENT',
+                F_AMOUNT_ALL: -125.18,
+                F_AMOUNT: 0,
+                F_VAT_20: 0,
+                F_VAT_PF: null,
+                F_AMOUNT_WITH_VAT: 0,
+                F_ADJ_FUCT_NUMBER: 710017,
+                F_ADJ_FUCT_DATE: '28.02.2018',
+                F_STATUS: 'Постинг',
+                F_DELTA_AMOUNT: -98.18,
+                TOTALCOUNT: 77,
+                HISTORY: '[{ "recnum":"1894891","adj_date":"28.02.2018","amount":"-98.18","vat_20":"","rec_nn_for_adj":"1","correason_type":"","adj_group_num":"","quantity":"","delta_det":"","num_det":"1",\n' +
+                    `"itemnumber":"Послуги рухомого (мобільного) зв'язку","unit_value":""\n` +
+                    '},{ "recnum":"1894891","adj_date":"28.02.2018","amount":"98.18","vat_20":"","rec_nn_for_adj":"2","correason_type":"","adj_group_num":"","quantity":"","delta_det":"","num_det":"2",\n' +
+                    `"itemnumber":"Послуги фiксованого зв'язку","unit_value":""\n` +
                     '}]'
             },
             {
-                FCTR_ID: 202473886,
-                F_DATE: '31.01.2019',
-                F_NAME: 'Налоговая накладная (моб.связь)',
-                F_NUMBER: 229921,
+                FCTR_ID: 179476121,
+                F_DATE: '28.02.2018',
+                F_NAME: 'Налоговая накладная (фиксир. связь)',
+                F_NUMBER: 710018,
                 CLNT_NAME: 'TEST_CLIENT',
-                F_AMOUNT_ALL: 404,
-                F_AMOUNT: 316.86,
-                F_VAT_20: 63.370000000000005,
-                F_VAT_PF: 23.77,
+                F_AMOUNT_ALL: 7.37,
+                F_AMOUNT: 6.140000000000001,
+                F_VAT_20: 1.23,
+                F_VAT_PF: 0,
                 F_AMOUNT_WITH_VAT: null,
                 F_ADJ_FUCT_NUMBER: null,
                 F_ADJ_FUCT_DATE: null,
                 F_STATUS: 'Постинг',
-                F_DELTA_AMOUNT: 404,
-                TOTALCOUNT: 45,
-                HISTORY: '[{ "recnum":"229921","adj_date":"31.01.2019","amount":"316.86","vat_20":"63.372","rec_nn_for_adj":"","correason_type":"","adj_group_num":"","quantity":"","delta_det":"316.86","num_det":"1",\n' +
-                    '"itemnumber":"Послуги рухомого (мобільного) зв\'язку","unit_value":""\n' +
+                F_DELTA_AMOUNT: 0,
+                TOTALCOUNT: 77,
+                HISTORY: '[{ "recnum":"710018","adj_date":"28.02.2018","amount":"6.14","vat_20":"1.23","rec_nn_for_adj":"","correason_type":"","adj_group_num":"","quantity":"","delta_det":"6.14","num_det":"1",\n' +
+                    '"itemnumber":"","unit_value":""\n' +
                     '}]'
             },
             {
-                FCTR_ID: 200388319,
-                F_DATE: '31.12.2018',
+                FCTR_ID: 179475844,
+                F_DATE: '28.02.2018',
                 F_NAME: 'Налоговая накладная (моб.связь)',
-                F_NUMBER: 360512,
+                F_NUMBER: 710017,
                 CLNT_NAME: 'TEST_CLIENT',
-                F_AMOUNT_ALL: 284.55,
-                F_AMOUNT: 223.18,
-                F_VAT_20: 44.64,
-                F_VAT_PF: 16.73,
+                F_AMOUNT_ALL: 25000,
+                F_AMOUNT: 19607.84,
+                F_VAT_20: 3921.57,
+                F_VAT_PF: 1470.59,
                 F_AMOUNT_WITH_VAT: null,
                 F_ADJ_FUCT_NUMBER: null,
                 F_ADJ_FUCT_DATE: null,
                 F_STATUS: 'Постинг',
-                F_DELTA_AMOUNT: 284.55,
-                TOTALCOUNT: 45,
-                HISTORY: '[{ "recnum":"360512","adj_date":"31.12.2018","amount":"223.18","vat_20":"44.636","rec_nn_for_adj":"","correason_type":"","adj_group_num":"","quantity":"","delta_det":"223.18","num_det":"1",\n' +
-                    '"itemnumber":"Послуги рухомого (мобільного) зв\'язку","unit_value":""\n' +
+                F_DELTA_AMOUNT: 24874.82,
+                TOTALCOUNT: 77,
+                HISTORY: '[{ "recnum":"710017","adj_date":"28.02.2018","amount":"19607.84","vat_20":"3921.57","rec_nn_for_adj":"","correason_type":"","adj_group_num":"","quantity":"","delta_det":"19509.66","num_det":"1",\n' +
+                    '"itemnumber":"","unit_value":""\n' +
                     '}]'
             },
-            {
-                FCTR_ID: 197707048,
-                F_DATE: '30.11.2018',
-                F_NAME: 'Налоговая накладная (моб.связь)',
-                F_NUMBER: 1644345,
-                CLNT_NAME: 'TEST_CLIENT',
-                F_AMOUNT_ALL: 145.5,
-                F_AMOUNT: 114.12,
-                F_VAT_20: 22.82,
-                F_VAT_PF: 8.56,
-                F_AMOUNT_WITH_VAT: null,
-                F_ADJ_FUCT_NUMBER: null,
-                F_ADJ_FUCT_DATE: null,
-                F_STATUS: 'Постинг',
-                F_DELTA_AMOUNT: 145.5,
-                TOTALCOUNT: 45,
-                HISTORY: '[{ "recnum":"1644345","adj_date":"30.11.2018","amount":"114.12","vat_20":"22.824","rec_nn_for_adj":"","correason_type":"","adj_group_num":"","quantity":"","delta_det":"114.12","num_det":"1",\n' +
-                    '"itemnumber":"Послуги рухомого (мобільного) зв\'язку","unit_value":""\n' +
-                    '}]'
-            },
-            {
-                FCTR_ID: 195878898,
-                F_DATE: '31.10.2018',
-                F_NAME: 'Налоговая накладная (моб.связь)',
-                F_NUMBER: 376279,
-                CLNT_NAME: 'TEST_CLIENT',
-                F_AMOUNT_ALL: 145,
-                F_AMOUNT: 113.73,
-                F_VAT_20: 22.75,
-                F_VAT_PF: 8.52,
-                F_AMOUNT_WITH_VAT: null,
-                F_ADJ_FUCT_NUMBER: null,
-                F_ADJ_FUCT_DATE: null,
-                F_STATUS: 'Постинг',
-                F_DELTA_AMOUNT: 145,
-                TOTALCOUNT: 45,
-                HISTORY: '[{ "recnum":"376279","adj_date":"31.10.2018","amount":"113.73","vat_20":"22.75","rec_nn_for_adj":"","correason_type":"","adj_group_num":"","quantity":"","delta_det":"113.73","num_det":"1",\n' +
-                    '"itemnumber":"Послуги рухомого (мобільного) зв\'язку","unit_value":""\n' +
-                    '}]'
-            },
-            {
-                FCTR_ID: 193877091,
-                F_DATE: '30.09.2018',
-                F_NAME: 'Налоговая накладная (моб.связь)',
-                F_NUMBER: 1683020,
-                CLNT_NAME: 'TEST_CLIENT',
-                F_AMOUNT_ALL: 150,
-                F_AMOUNT: 117.65,
-                F_VAT_20: 23.53,
-                F_VAT_PF: 8.82,
-                F_AMOUNT_WITH_VAT: null,
-                F_ADJ_FUCT_NUMBER: null,
-                F_ADJ_FUCT_DATE: null,
-                F_STATUS: 'Постинг',
-                F_DELTA_AMOUNT: 150,
-                TOTALCOUNT: 45,
-                HISTORY: '[{ "recnum":"1683020","adj_date":"30.09.2018","amount":"117.65","vat_20":"23.53","rec_nn_for_adj":"","correason_type":"","adj_group_num":"","quantity":"","delta_det":"117.65","num_det":"1",\n' +
-                    '"itemnumber":"Послуги рухомого (мобільного) зв\'язку","unit_value":""\n' +
-                    '}]'
-            },
-            {
-                FCTR_ID: 191810902,
-                F_DATE: '31.08.2018',
-                F_NAME: 'Налоговая накладная (моб.связь)',
-                F_NUMBER: 1236666,
-                CLNT_NAME: 'TEST_CLIENT',
-                F_AMOUNT_ALL: 104,
-                F_AMOUNT: 81.57000000000001,
-                F_VAT_20: 16.31,
-                F_VAT_PF: 6.12,
-                F_AMOUNT_WITH_VAT: null,
-                F_ADJ_FUCT_NUMBER: null,
-                F_ADJ_FUCT_DATE: null,
-                F_STATUS: 'Постинг',
-                F_DELTA_AMOUNT: 104,
-                TOTALCOUNT: 45,
-                HISTORY: '[{ "recnum":"1236666","adj_date":"31.08.2018","amount":"81.57","vat_20":"16.31","rec_nn_for_adj":"","correason_type":"","adj_group_num":"","quantity":"","delta_det":"81.57","num_det":"1",\n' +
-                    '"itemnumber":"Послуги рухомого (мобільного) зв\'язку","unit_value":""\n' +
-                    '}]'
-            },
-            {
-                FCTR_ID: 189325240,
-                F_DATE: '31.07.2018',
-                F_NAME: 'Налоговая накладная (моб.связь)',
-                F_NUMBER: 415674,
-                CLNT_NAME: 'TEST_CLIENT',
-                F_AMOUNT_ALL: 597.5,
-                F_AMOUNT: 468.63,
-                F_VAT_20: 93.73,
-                F_VAT_PF: 35.14,
-                F_AMOUNT_WITH_VAT: null,
-                F_ADJ_FUCT_NUMBER: null,
-                F_ADJ_FUCT_DATE: null,
-                F_STATUS: 'Постинг',
-                F_DELTA_AMOUNT: 597.5,
-                TOTALCOUNT: 45,
-                HISTORY: '[{ "recnum":"415674","adj_date":"31.07.2018","amount":"468.63","vat_20":"93.73","rec_nn_for_adj":"","correason_type":"","adj_group_num":"","quantity":"","delta_det":"468.63","num_det":"1",\n' +
-                    '"itemnumber":"Послуги рухомого (мобільного) зв\'язку","unit_value":""\n' +
-                    '}]'
-            },
-            {
-                FCTR_ID: 187333440,
-                F_DATE: '30.06.2018',
-                F_NAME: 'Налоговая накладная (моб.связь)',
-                F_NUMBER: 703612,
-                CLNT_NAME: 'TEST_CLIENT',
-                F_AMOUNT_ALL: 474.5,
-                F_AMOUNT: 372.16,
-                F_VAT_20: 74.43,
-                F_VAT_PF: 27.91,
-                F_AMOUNT_WITH_VAT: null,
-                F_ADJ_FUCT_NUMBER: null,
-                F_ADJ_FUCT_DATE: null,
-                F_STATUS: 'Постинг',
-                F_DELTA_AMOUNT: 474.5,
-                TOTALCOUNT: 45,
-                HISTORY: '[{ "recnum":"703612","adj_date":"30.06.2018","amount":"372.16","vat_20":"74.43","rec_nn_for_adj":"","correason_type":"","adj_group_num":"","quantity":"","delta_det":"372.16","num_det":"1",\n' +
-                    '"itemnumber":"Послуги рухомого (мобільного) зв\'язку","unit_value":""\n' +
-                    '}]'
-            }
-        ]
+         
+                {
+                    FCTR_ID: 160544266,
+                    F_DATE: '30.04.2017',
+                    F_NAME: 'Корректировка НДС (фиксир.связь)',
+                    F_NUMBER: 1845354,
+                    CLNT_NAME: 'TEST_CLIENT',
+                    F_AMOUNT_ALL: 7.36,
+                    F_AMOUNT: 6.13,
+                    F_VAT_20: 1.23,
+                    F_VAT_PF: null,
+                    F_AMOUNT_WITH_VAT: 7.36,
+                    F_ADJ_FUCT_NUMBER: 333397,
+                    F_ADJ_FUCT_DATE: '30.04.2017',
+                    F_STATUS: 'Постинг',
+                    F_DELTA_AMOUNT: 125,
+                    TOTALCOUNT: 77,
+                    HISTORY: '[{ "recnum":"1845354","adj_date":"30.04.2017","amount":"6.13","vat_20":"","rec_nn_for_adj":"1","correason_type":"","adj_group_num":"","quantity":"","delta_det":"","num_det":"0",\n' +
+                        `"itemnumber":"Послуги фiксованого зв'язку","unit_value":""\n` +
+                        '}]'
+                },
+                {
+                    FCTR_ID: 160544165,
+                    F_DATE: '30.04.2017',
+                    F_NAME: 'Налоговая накладная (моб.связь)',
+                    F_NUMBER: 333397,
+                    CLNT_NAME: 'TEST_CLIENT',
+                    F_AMOUNT_ALL: 31100.99,
+                    F_AMOUNT: 24392.93,
+                    F_VAT_20: 4878.59,
+                    F_VAT_PF: 1829.47,
+                    F_AMOUNT_WITH_VAT: null,
+                    F_ADJ_FUCT_NUMBER: null,
+                    F_ADJ_FUCT_DATE: null,
+                    F_STATUS: 'Постинг',
+                    F_DELTA_AMOUNT: 31100.99,
+                    TOTALCOUNT: 77,
+                    HISTORY: '[{ "recnum":"333397","adj_date":"30.04.2017","amount":"24392.93","vat_20":"4878.59","rec_nn_for_adj":"","correason_type":"","adj_group_num":"","quantity":"","delta_det":"24392.93","num_det":"1",\n' +
+                        '"itemnumber":"","unit_value":""\n' +
+                        '}]'
+                },
+                {
+                    FCTR_ID: 158735037,
+                    F_DATE: '31.03.2017',
+                    F_NAME: 'Налоговая накладная (фиксир. связь)',
+                    F_NUMBER: 291761,
+                    CLNT_NAME: 'TEST_CLIENT',
+                    F_AMOUNT_ALL: 125.09,
+                    F_AMOUNT: 104.24000000000001,
+                    F_VAT_20: 20.85,
+                    F_VAT_PF: 0,
+                    F_AMOUNT_WITH_VAT: null,
+                    F_ADJ_FUCT_NUMBER: null,
+                    F_ADJ_FUCT_DATE: null,
+                    F_STATUS: 'Постинг',
+                    F_DELTA_AMOUNT: 125.09,
+                    TOTALCOUNT: 77,
+                    HISTORY: '[{ "recnum":"291761","adj_date":"31.03.2017","amount":"104.24","vat_20":"20.85","rec_nn_for_adj":"","correason_type":"","adj_group_num":"","quantity":"","delta_det":"104.24","num_det":"1",\n' +
+                        '"itemnumber":"","unit_value":""\n' +
+                        '}]'
+                },
+                {
+                    FCTR_ID: 158735032,
+                    F_DATE: '31.03.2017',
+                    F_NAME: 'Налоговая накладная (моб.связь)',
+                    F_NUMBER: 291760,
+                    CLNT_NAME: 'TEST_CLIENT',
+                    F_AMOUNT_ALL: 23931.21,
+                    F_AMOUNT: 18769.58,
+                    F_VAT_20: 3753.92,
+                    F_VAT_PF: 1407.71,
+                    F_AMOUNT_WITH_VAT: null,
+                    F_ADJ_FUCT_NUMBER: null,
+                    F_ADJ_FUCT_DATE: null,
+                    F_STATUS: 'Постинг',
+                    F_DELTA_AMOUNT: 23931.21,
+                    TOTALCOUNT: 77,
+                    HISTORY: '[{ "recnum":"291760","adj_date":"31.03.2017","amount":"18769.58","vat_20":"3753.92","rec_nn_for_adj":"","correason_type":"","adj_group_num":"","quantity":"","delta_det":"18769.58","num_det":"1",\n' +
+                        '"itemnumber":"","unit_value":""\n' +
+                        '}]'
+                },
+                {
+                    FCTR_ID: 156834045,
+                    F_DATE: '28.02.2017',
+                    F_NAME: 'Корректировка НДС (фиксир.связь)',
+                    F_NUMBER: 1778882,
+                    CLNT_NAME: 'TEST_CLIENT',
+                    F_AMOUNT_ALL: 7.36,
+                    F_AMOUNT: 6.13,
+                    F_VAT_20: 1.23,
+                    F_VAT_PF: null,
+                    F_AMOUNT_WITH_VAT: 7.36,
+                    F_ADJ_FUCT_NUMBER: 774843,
+                    F_ADJ_FUCT_DATE: '28.02.2017',
+                    F_STATUS: 'Постинг',
+                    F_DELTA_AMOUNT: 125.14,
+                    TOTALCOUNT: 77,
+                    HISTORY: '[{ "recnum":"1778882","adj_date":"28.02.2017","amount":"6.13","vat_20":"","rec_nn_for_adj":"1","correason_type":"","adj_group_num":"","quantity":"","delta_det":"","num_det":"0",\n' +
+                        `"itemnumber":"Послуги фiксованого зв'язку","unit_value":""\n` +
+                        '}]'
+                }
+              
+            ]
 
     //  res = await axios('/api/fucturies/fuct_list_test');
     json = str;
