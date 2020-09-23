@@ -9,7 +9,7 @@ import AppBar from "@material-ui/core/AppBar";
 import classes from "*.module.css";
 import styled from 'styled-components';
 
-axios.defaults.baseURL = 'http://localhost:3000';
+//axios.defaults.baseURL = 'http://localhost:3000';
 
 // Create a theme instance.
 
