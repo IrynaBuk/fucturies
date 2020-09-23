@@ -256,20 +256,13 @@ FucturiesLists.getInitialProps = async ({query}) => {
     let res,json;
 
 
-  if (query?.test==1)
-  {    res = await axios('/api/fucturies/fuct_list_test');
-       json = res.data;
-      if (Array.isArray(json)) {
-          TotalRows = json[0]?.TOTALCOUNT;
 
-      }}
-  else {
-       res = await axios('/api/fucturies/' + getAsString(query.id) + '?datefrom=' + TodayFrom + '&dateto=' + TodayTo + '&page=' + page);
+      res = await axios('/api/fucturies/fuct_list_test');
        json = res.data;
       if (Array.isArray(json)) {
           TotalRows = json[0]?.TOTALCOUNT;
 
       }
-  }
+
     return {  data:json,todayFrom : TodayFrom,todayTo:TodayTo,totalRows:TotalRows||0,acc:acc};
 };
