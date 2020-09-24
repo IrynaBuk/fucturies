@@ -1,6 +1,5 @@
 import { Box, Button, Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow } from '@material-ui/core';
 
-
 import React from 'react';
 
 import {DataFields} from './DataFields';
@@ -19,7 +18,6 @@ import Typography from "@material-ui/core/Typography";
 import Link from 'next/link';
 
 
-
 export interface FucturiesLists {
     data?: JSON;
     todayFrom:String;
@@ -34,7 +32,7 @@ const StyledTableCell = withStyles((theme) => ({
         color: theme.palette.common.white,
     },
     body: {
-        fontSize: 10,
+        fontSize: 8,
     },
 }))(TableCell);
 
@@ -45,7 +43,7 @@ const StyledTableCellDetail = withStyles((theme) => ({
         color: theme.palette.common.black,
     },
     body: {
-        fontSize: 10,
+        fontSize: 8,
     },
 }))(TableCell);
 
@@ -55,7 +53,7 @@ const StyledTableHeadDetail = withStyles((theme) => ({
         color: theme.palette.common.white,
     },
     body: {
-        fontSize: 10,
+        fontSize: 8,
     },
 }))(TableCell);
 
