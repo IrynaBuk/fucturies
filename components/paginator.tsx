@@ -16,7 +16,7 @@ export interface MaterialUiLinkProps {
 
 export interface FPaginator {
     countlength?: number
-    }
+}
 
 export function MaterialUiLink({ item, query, ...props }: MaterialUiLinkProps) {
     return (
@@ -36,7 +36,7 @@ export  function FPaginator({countlength}:FPaginator)
     const {query}=useRouter();
     const [page, setPage] = React.useState(getAsString(query.page)||1);
 
-    const [rowsPerPage, setRowsPerPage] = React.useState(10);
+    const [rowsPerPage, setRowsPerPage] = React.useState(14);
 
     const handleChangePage = (event, newPage) => {
         setPage(newPage);
@@ -60,11 +60,11 @@ export  function FPaginator({countlength}:FPaginator)
                 />
             )}
         />
-        </React.Fragment>
+    </React.Fragment>
 }
 
 export const getServerSideProps: GetServerSideProps = async () => {
-   const countlength=10;
+    const countlength=14;
     return {
         props: {
             countlength
