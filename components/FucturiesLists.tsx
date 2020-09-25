@@ -32,7 +32,7 @@ const StyledTableCell = withStyles((theme) => ({
         color: theme.palette.common.white,
     },
     body: {
-        fontSize: 8,
+        fontSize: 10,
     },
 }))(TableCell);
 
@@ -43,7 +43,7 @@ const StyledTableCellDetail = withStyles((theme) => ({
         color: theme.palette.common.black,
     },
     body: {
-        fontSize: 8,
+        fontSize: 10,
     },
 }))(TableCell);
 
@@ -53,7 +53,7 @@ const StyledTableHeadDetail = withStyles((theme) => ({
         color: theme.palette.common.white,
     },
     body: {
-        fontSize: 8,
+        fontSize: 10,
     },
 }))(TableCell);
 
@@ -158,7 +158,7 @@ function Row(props) {
 
     return (
         <React.Fragment>
-            <TableRow className={classes.root} tabIndex={-1} >
+            <TableRow tabIndex={-1} >
                 <TableCell>
                     <IconButton aria-label="expand row" size="small" onClick={() => setOpen(!open)}>
                         {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}

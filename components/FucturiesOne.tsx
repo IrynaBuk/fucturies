@@ -16,7 +16,7 @@ import {useRouter} from "next/router";
 import {getAsString} from "../functions/getAsString";
 import styled from 'styled-components';
 import Typography from "@material-ui/core/Typography";
-
+import Link from "next/link";
 
 
 export interface FucturiesOne {
@@ -99,7 +99,15 @@ export function FucturiesOne( {data,todayFrom,todayTo,totalRows,acc}) {
             <Container>
                 <Typography variant="subtitle1">Налоговые накладные: Лицевой счет №{acc}</Typography>
             </Container>
+            <Link href={{
+                pathname: '/fucturies/'+query.id,
+                query: { ...query },
+            }}
+            >
+                <a>Назад</a>
 
+            </Link>
+            <div/>
             <TableContainer component={Paper} key="MainTable" >
                 <Table  aria-label="collapsible table" stickyHeader={true}>
                     <TableHead>
@@ -155,7 +163,7 @@ function Row(props) {
 
     return (
         <React.Fragment>
-            <TableRow className={classes.root} tabIndex={-1} >
+            <TableRow tabIndex={-1} >
                 <TableCell>
                     <IconButton aria-label="expand row" size="small" onClick={() => setOpen(!open)}>
                         {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
