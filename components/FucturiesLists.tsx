@@ -32,7 +32,7 @@ const StyledTableCell = withStyles((theme) => ({
         color: theme.palette.common.white,
     },
     body: {
-        fontSize: 10,
+
     },
 }))(TableCell);
 
@@ -43,7 +43,7 @@ const StyledTableCellDetail = withStyles((theme) => ({
         color: theme.palette.common.black,
     },
     body: {
-        fontSize: 10,
+
     },
 }))(TableCell);
 
@@ -53,7 +53,7 @@ const StyledTableHeadDetail = withStyles((theme) => ({
         color: theme.palette.common.white,
     },
     body: {
-        fontSize: 10,
+
     },
 }))(TableCell);
 
@@ -104,7 +104,7 @@ export function FucturiesLists( {data,todayFrom,todayTo,totalRows,acc}) {
                 </Box>
             </Container>
             <TableContainer component={Paper} key="MainTable" >
-                <Table  aria-label="collapsible table" stickyHeader={true}>
+                <Table   table-layout="fixed" style={{ zoom : "95%"}} aria-label="collapsible table" stickyHeader={true}>
                     <TableHead>
                         <TableRow>
                             <StyledTableCell />
