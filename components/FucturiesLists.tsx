@@ -43,7 +43,6 @@ const StyledTableCellDetail = withStyles((theme) => ({
         color: theme.palette.common.black,
     },
     body: {
-
     },
 }))(TableCell);
 
